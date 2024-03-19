@@ -23,7 +23,7 @@ function App() {
       filterByType={filterByType}
       setSat={setSat}
       displaySats={displaySats}/>
-      <Table />
+      <Table sat={sat}/>
     </>
   );
 }
